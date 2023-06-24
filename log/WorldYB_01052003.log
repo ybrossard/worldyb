@@ -1,0 +1,137 @@
+01/05/2003 - 00 H 24 M 55 ==> Fichier D:\WorldYB\log\WorldYB_01052003.log cree.
+01/05/2003 - 00 H 24 M 55 ==> Bleu
+01/05/2003 - 00 H 24 M 55 ==> Blanc
+01/05/2003 - 00 H 24 M 55 ==> Rouge
+01/05/2003 - 00 H 24 M 55 ==> France
+01/05/2003 - 00 H 24 M 55 ==> Allemagne
+01/05/2003 - 00 H 24 M 55 ==> Italie
+01/05/2003 - 00 H 25 M 37 ==> Bleu
+01/05/2003 - 00 H 25 M 37 ==> Blanc
+01/05/2003 - 00 H 25 M 37 ==> Rouge
+01/05/2003 - 00 H 25 M 37 ==> France
+01/05/2003 - 00 H 25 M 37 ==> Allemagne
+01/05/2003 - 00 H 25 M 37 ==> Italie
+01/05/2003 - 00 H 26 M 32 ==> Bleu
+01/05/2003 - 00 H 26 M 32 ==> Blanc
+01/05/2003 - 00 H 26 M 32 ==> Rouge
+01/05/2003 - 00 H 26 M 32 ==> Jupiter
+01/05/2003 - 00 H 26 M 32 ==> Uranus
+01/05/2003 - 00 H 26 M 32 ==> Neptune
+01/05/2003 - 00 H 28 M 21 ==> Bleu
+01/05/2003 - 00 H 28 M 21 ==> Blanc
+01/05/2003 - 00 H 28 M 21 ==> Rouge
+01/05/2003 - 00 H 28 M 21 ==> Jupiter
+01/05/2003 - 00 H 28 M 21 ==> Uranus
+01/05/2003 - 00 H 28 M 21 ==> Neptune
+01/05/2003 - 00 H 28 M 42 ==> Bleu
+01/05/2003 - 00 H 28 M 42 ==> Blanc
+01/05/2003 - 00 H 28 M 42 ==> Rouge
+01/05/2003 - 00 H 28 M 42 ==> Jupiter
+01/05/2003 - 00 H 28 M 42 ==> Uranus
+01/05/2003 - 00 H 28 M 42 ==> Neptune
+01/05/2003 - 09 H 45 M 32 ==> Bleu
+01/05/2003 - 09 H 45 M 32 ==> Blanc
+01/05/2003 - 09 H 45 M 32 ==> Rouge
+01/05/2003 - 09 H 45 M 32 ==> Jupiter
+01/05/2003 - 09 H 45 M 32 ==> Uranus
+01/05/2003 - 09 H 45 M 32 ==> Neptune
+01/05/2003 - 09 H 52 M 34 ==> Code ASCII de 'Y' : 89
+01/05/2003 - 09 H 52 M 34 ==> Code ASCII de 'Y' : 89
+01/05/2003 - 09 H 52 M 45 ==> Code ASCII de 'Y' : 89
+01/05/2003 - 09 H 52 M 45 ==> Code ASCII de 'Y' : 89
+01/05/2003 - 09 H 56 M 34 ==> Code ASCII de 'Y' : 89
+01/05/2003 - 09 H 56 M 34 ==> Code ASCII de 'Y' : 89
+01/05/2003 - 09 H 57 M 06 ==> Code ASCII de 'Y' : 89
+01/05/2003 - 09 H 57 M 06 ==> Code ASCII de 'Y' : 89
+01/05/2003 - 09 H 57 M 09 ==> Avant lancement de la calculatrice.
+01/05/2003 - 09 H 57 M 09 ==> Commande calc.exe lancee.
+01/05/2003 - 09 H 57 M 09 ==> Apres lancement de la calculatrice.
+01/05/2003 - 09 H 57 M 09 ==> Avant lancement de notepad.
+01/05/2003 - 09 H 57 M 09 ==> Commande notepad.exe lancee.
+01/05/2003 - 09 H 57 M 13 ==> Valeur de retour du process notepad.exe : 0
+01/05/2003 - 09 H 57 M 13 ==> Apres lancement de notepad.
+01/05/2003 - 09 H 57 M 15 ==> Avant lancement de la calculatrice.
+01/05/2003 - 09 H 57 M 15 ==> Commande calc.exe lancee.
+01/05/2003 - 09 H 57 M 15 ==> Apres lancement de la calculatrice.
+01/05/2003 - 09 H 57 M 15 ==> Avant lancement de notepad.
+01/05/2003 - 09 H 57 M 15 ==> Commande notepad.exe lancee.
+01/05/2003 - 09 H 57 M 17 ==> Valeur de retour du process notepad.exe : 0
+01/05/2003 - 09 H 57 M 17 ==> Apres lancement de notepad.
+01/05/2003 - 09 H 57 M 21 ==> Cle du parametre 'SGBD_DRIVER_ORACLE' : oracle.jdbc.driver.OracleDriver
+01/05/2003 - 09 H 57 M 21 ==> Cle du parametre 'SGBD_URL_EFUD' : jdbc:oracle:thin:@clsss02:1531:EFUD
+01/05/2003 - 09 H 57 M 21 ==> Cle du parametre 'SGBD_USER_EFUD' : efunadmin
+01/05/2003 - 09 H 57 M 21 ==> Cle du parametre 'SGBD_PWD_EFUD' : pefunadmin
+01/05/2003 - 09 H 57 M 23 ==> Cle du parametre 'SGBD_DRIVER_ORACLE' : oracle.jdbc.driver.OracleDriver
+01/05/2003 - 09 H 57 M 23 ==> Cle du parametre 'SGBD_URL_EFUD' : jdbc:oracle:thin:@clsss02:1531:EFUD
+01/05/2003 - 09 H 57 M 23 ==> Cle du parametre 'SGBD_USER_EFUD' : efunadmin
+01/05/2003 - 09 H 57 M 23 ==> Cle du parametre 'SGBD_PWD_EFUD' : pefunadmin
+01/05/2003 - 09 H 57 M 26 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:oracle:thin:@clsss02:1531:EFUD
+01/05/2003 - 09 H 57 M 26 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+01/05/2003 - 09 H 57 M 26 ==> Connexion etablie : null
+01/05/2003 - 09 H 57 M 26 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:sybase:Tds:clsss22:5100
+01/05/2003 - 09 H 57 M 26 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+01/05/2003 - 09 H 57 M 26 ==> Connexion etablie : null
+01/05/2003 - 09 H 57 M 29 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:oracle:thin:@clsss02:1531:EFUD
+01/05/2003 - 09 H 57 M 29 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+01/05/2003 - 09 H 57 M 29 ==> Connexion etablie : null
+01/05/2003 - 09 H 57 M 29 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:sybase:Tds:clsss22:5100
+01/05/2003 - 09 H 57 M 29 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+01/05/2003 - 09 H 57 M 29 ==> Connexion etablie : null
+01/05/2003 - 09:59:39 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:oracle:thin:@clsss02:1531:EFUD
+01/05/2003 - 09:59:39 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+01/05/2003 - 09:59:39 ==> Connexion etablie : null
+01/05/2003 - 09:59:39 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:sybase:Tds:clsss22:5100
+01/05/2003 - 09:59:39 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+01/05/2003 - 09:59:39 ==> Connexion etablie : null
+01/05/2003 - 09 H 59 M 59 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:oracle:thin:@clsss02:1531:EFUD
+01/05/2003 - 09 H 59 M 59 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+01/05/2003 - 09 H 59 M 59 ==> Connexion etablie : null
+01/05/2003 - 09 H 59 M 59 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:sybase:Tds:clsss22:5100
+01/05/2003 - 09 H 59 M 59 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+01/05/2003 - 09 H 59 M 59 ==> Connexion etablie : null
+01/05/2003 - 10:00:49 ==> Fichier c:\temp\MonFichier.txt cree.
+01/05/2003 - 10:00:49 ==> Test de l'existence du fichier : true
+01/05/2003 - 10:01:14 ==> Test d'une File basee sur un tableau
+01/05/2003 - 10:01:14 ==> File vide : true
+01/05/2003 - 10:01:14 ==> File pleine : false
+01/05/2003 - 10:01:14 ==> file.enfiler('Element 1 : Yann')
+01/05/2003 - 10:01:14 ==> File vide : false
+01/05/2003 - 10:01:14 ==> File pleine : false
+01/05/2003 - 10:01:14 ==> file.enfiler('Element 2 : Caroline')
+01/05/2003 - 10:01:14 ==> File vide : false
+01/05/2003 - 10:01:14 ==> File pleine : false
+01/05/2003 - 10:01:14 ==> file.enfiler('Element 3 : Olivier')
+01/05/2003 - 10:01:14 ==> File vide : false
+01/05/2003 - 10:01:14 ==> File pleine : true
+01/05/2003 - 10:01:14 ==> file.defiler() : Element 1 : Yann
+01/05/2003 - 10:01:14 ==> file.defiler() : Element 2 : Caroline
+01/05/2003 - 10:01:14 ==> file.defiler() : Element 3 : Olivier
+01/05/2003 - 10:01:14 ==> Erreur : La file est vide.
+01/05/2003 - 10:01:14 ==> file.defiler() : null
+01/05/2003 - 10:01:14 ==> Erreur : La file est vide.
+01/05/2003 - 10:01:14 ==> file.defiler() : null
+01/05/2003 - 10:01:14 ==> Test d'une File basee sur un Vector()
+01/05/2003 - 10:01:14 ==> File vide : true
+01/05/2003 - 10:01:14 ==> File pleine : false
+01/05/2003 - 10:01:14 ==> fileV.enfiler('Element 1 : Yann')
+01/05/2003 - 10:01:14 ==> File vide : false
+01/05/2003 - 10:01:14 ==> File pleine : false
+01/05/2003 - 10:01:14 ==> fileV.enfiler('Element 2 : Caroline')
+01/05/2003 - 10:01:14 ==> File vide : false
+01/05/2003 - 10:01:14 ==> File pleine : false
+01/05/2003 - 10:01:14 ==> fileV.enfiler('Element 3 : Olivier')
+01/05/2003 - 10:01:14 ==> File vide : false
+01/05/2003 - 10:01:14 ==> File pleine : true
+01/05/2003 - 10:01:14 ==> fileV.defiler() : Element 1 : Yann
+01/05/2003 - 10:01:14 ==> fileV.defiler() : Element 2 : Caroline
+01/05/2003 - 10:01:14 ==> fileV.defiler() : Element 3 : Olivier
+01/05/2003 - 10:01:14 ==> Erreur : La file est vide.
+01/05/2003 - 10:01:14 ==> fileV.defiler() : null
+01/05/2003 - 10:01:14 ==> Erreur : La file est vide.
+01/05/2003 - 10:01:14 ==> fileV.defiler() : null
+01/05/2003 - 10:01:37 ==> Bleu
+01/05/2003 - 10:01:37 ==> Blanc
+01/05/2003 - 10:01:37 ==> Rouge
+01/05/2003 - 10:01:37 ==> Jupiter
+01/05/2003 - 10:01:37 ==> Uranus
+01/05/2003 - 10:01:37 ==> Neptune

@@ -1,0 +1,69 @@
+27/03/2003 - 19 H 33 M 10 ==> Fichier D:\WorldYB\log\WorldYB_27032003.log cree.
+27/03/2003 - 19 H 33 M 10 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 19 H 33 M 11 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 19 H 33 M 11 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 19 H 33 M 11 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 19 H 41 M 48 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 19 H 41 M 48 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 19 H 41 M 48 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 19 H 41 M 48 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 30 M 34 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 30 M 34 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 30 M 34 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 30 M 34 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 32 M 08 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 32 M 08 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 32 M 08 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 32 M 08 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 32 M 23 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 32 M 23 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 32 M 23 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 32 M 23 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 32 M 45 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 32 M 45 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 32 M 45 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 32 M 45 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 32 M 52 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 32 M 52 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 32 M 52 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 32 M 52 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 33 M 25 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 33 M 25 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 33 M 25 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 33 M 25 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 36 M 22 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 36 M 22 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 36 M 22 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 36 M 22 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 36 M 32 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 36 M 32 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 36 M 32 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 36 M 32 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 37 M 05 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 37 M 05 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 37 M 05 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 37 M 05 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 37 M 34 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 37 M 34 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 37 M 34 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 37 M 34 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 37 M 44 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 37 M 44 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 37 M 44 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 37 M 44 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 37 M 52 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 37 M 52 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 37 M 52 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 37 M 52 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 37 M 55 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 37 M 55 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 37 M 55 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 37 M 55 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 38 M 16 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 38 M 16 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 38 M 16 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 38 M 16 ==> s2.getMessage() : Singleton YB
+27/03/2003 - 21 H 40 M 41 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 40 M 41 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+27/03/2003 - 21 H 40 M 41 ==> s1.getMessage() : Singleton YB
+27/03/2003 - 21 H 40 M 41 ==> s2.getMessage() : Singleton YB

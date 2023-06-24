@@ -1,0 +1,14 @@
+CHEMIN_FICHIER_LOG=C:\\Yann Brossard CLAM\\Zip\\temp\\WorldYB\\log\\
+PREFIXE_FICHIER_LOG=World
+
+# Sybase
+SGBD_DRIVER_SYBASE=com.sybase.jdbc2.jdbc.SybDriver
+SGBD_URL_DS_IDEE_INT=jdbc:sybase:Tds:clsss22:5100
+SGBD_USER_DS_IDEE_INT=etdbo
+SGBD_PWD_DS_IDEE_INT=etgespor
+
+# Oracle
+SGBD_DRIVER_ORACLE=oracle.jdbc.driver.OracleDriver
+SGBD_URL_EFUD=jdbc:oracle:thin:@clsss02:1531:EFUD
+SGBD_USER_EFUD=efunadmin
+SGBD_PWD_EFUD=pefunadmin

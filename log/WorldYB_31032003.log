@@ -1,0 +1,14 @@
+31/03/2003 - 21 H 17 M 09 ==> Fichier D:\WorldYB\log\WorldYB_31032003.log cree.
+31/03/2003 - 21 H 17 M 09 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+31/03/2003 - 21 H 17 M 09 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+31/03/2003 - 21 H 17 M 09 ==> s1.getMessage() : Singleton YB
+31/03/2003 - 21 H 17 M 09 ==> s1.getChampString() : J'initialise un deuxième champ.
+31/03/2003 - 21 H 17 M 09 ==> s2.getChampInt() : 24091972
+31/03/2003 - 21 H 18 M 22 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+31/03/2003 - 21 H 18 M 22 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+31/03/2003 - 21 H 18 M 22 ==> s1.getMessage() : Singleton YB
+31/03/2003 - 21 H 18 M 22 ==> s2.getMessage() : Singleton YB
+31/03/2003 - 21 H 18 M 22 ==> s1.getChampString() : J'initialise un deuxième champ.
+31/03/2003 - 21 H 18 M 22 ==> s2.getChampString() : J'initialise un deuxième champ.
+31/03/2003 - 21 H 18 M 22 ==> s1.getChampInt() : 24091972
+31/03/2003 - 21 H 18 M 22 ==> s2.getChampInt() : 24091972

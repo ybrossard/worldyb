@@ -1,0 +1,9 @@
+28/06/2002 - 20 H 08 M 52 ==> Fichier D:\WorldYB\log\World_28062002.log cree.
+28/06/2002 - 20 H 08 M 52 ==> Ceci est un test de message de log dans un fichier de log
+28/06/2002 - 20 H 09 M 02 ==> Ceci est un test de message de log dans un fichier de log
+28/06/2002 - 20 H 09 M 12 ==> Fichier c:\temp\MonFichier.txt cree.
+28/06/2002 - 20 H 09 M 12 ==> Test de l'existence du fichier : true
+28/06/2002 - 20 H 09 M 15 ==> Date : Fri Jun 28 20:09:15 CEST 2002
+28/06/2002 - 20 H 09 M 15 ==> Date convertie en chaine : 28/06/2002
+28/06/2002 - 20 H 09 M 15 ==> Date reconvertie en date : Fri Jun 28 00:00:00 CEST 2002
+28/06/2002 - 20 H 09 M 15 ==> Date reconvertie en chaine (changement de format) : 28-06-2002

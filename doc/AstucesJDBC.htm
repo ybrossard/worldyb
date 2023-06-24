@@ -1,0 +1,687 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0034)http://www.jalice.net/jdbcsite.htm -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><LINK 
+media=screen href="AstucesJDBC_fichiers/alicestyle.css" type=text/css 
+rel=StyleSheet>
+<META content="MSHTML 6.00.2600.0" name=GENERATOR></HEAD>
+<BODY>
+<TABLE cellSpacing=4 width="90%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG alt=JavaCoffee3.gif 
+  src="AstucesJDBC_fichiers/JavaCoffee3.gif"></TD></TR>
+  <TR>
+    <TH class=FIRST align=left width="20%" height=25>Topic</TH>
+    <TH class=FIRST align=left height=25>Description</TH></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Infos at Sun</TH></TR>
+  <TR>
+    <TD vAlign=top><A 
+      href="http://developer.java.sun.com/developer/technicalArticles/Interviews/StartJDBC/" 
+      target=_top>JDBC</A></TD>
+    <TD>JDBC-Tech-Article</TD></TR>
+  <TR>
+    <TD vAlign=top><A 
+      href="http://java.sun.com/docs/books/tutorial/jdbc/index.html" 
+      target=_top>JDBC-Tutorial</A></TD>
+    <TD>JDBC-Tutorial</TD></TR>
+  <TR>
+    <TD vAlign=top><A href="http://java.sun.com/products/jdbc/faq.html" 
+      target=_top>JDBC-FAQ</A></TD>
+    <TD>JDBC-FAQ</TD></TR>
+  <TR>
+    <TD vAlign=top><A 
+      href="http://developer.java.sun.com/developer/onlineTraining/Database/JDBCShortCourse/index.html" 
+      target=_top>JDBC-Short-Course</A></TD>
+    <TD>JDBC-Short-Course</TD></TR>
+  <TR>
+    <TD vAlign=top><A 
+      href="http://technet.oracle.com/tech/java/sqlj_jdbc/htdocs/jdbc_faq.htm" 
+      target=_top>JDBC-Oracle-FAQ</A></TD>
+    <TD>Oracle-FAQ specifiacally related to JDBC</TD></TR>
+  <TR>
+    <TD vAlign=top><A href="http://java.sun.com/products/jdbc/driverdesc.html" 
+      target=_top>JDBC-Driver Types</A></TD>
+    <TD>JDBC Driver Types</TD></TR>
+  <TR>
+    <TD vAlign=top><A 
+      href="http://industry.java.sun.com/products/jdbc/drivers" 
+      target=_top>JDBC-Driver</A></TD>
+    <TD>JDBC Driver list</TD></TR>
+  <TR>
+    <TD vAlign=top><A 
+      href="http://www.as400.ibm.com/developer/java/topics/jdbctips.html" 
+      target=_top>JDBC-Performance</A></TD>
+    <TD>JDBC Performance Tips</TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>System settings to start with the 
+      ODBC:JDBC-Bridge (OS configuration)</TH></TR>
+  <TR>
+    <TD colSpan=2>
+      <H3>System-Entries to get started with JDBC on W2K</H3><PRE>
+Start -&gt; Settings -&gt; Systemsteuerung -&gt; ODBC-ControlPanel.
+
+
+
+Registertab: System-DSN -&gt; [Add]
+
+
+
+Choose your driver. -&gt; [Complete]
+
+
+
+Datasource: [DBName]
+
+Description:  whatever
+
+[Choose] &lt; - Your XXX.db / XXX.mdb search.
+</PRE>Exit with [OK]. It should work afterwards.<BR><BR>Simple test 
+      program: <A href="http://www.jalice.net/jdbc.htm">ConnectionTest</A> 
+      Connection test to Access 2000 (I really don't like this 
+      database...)<BR><BR>Create a table test:<A 
+      href="http://www.jalice.net/dbcreate.htm">DBCreate.java</A><BR>Create a 
+      table on a database<BR><BR>Create a table test:<A 
+      href="http://www.jalice.net/dbinsert.htm">DBInsert.java</A><BR>Insert data 
+      into a table on a database<BR><BR>JTable test-program: <A 
+      href="http://www.jalice.net/DBTest1.java.htm">TestTable.java</A> JTable 
+      filled with data via database (Access/JDBC:ODBC-Bridge-test) </TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Driver Installation SQL-Server</TH></TR>
+  <TR>
+    <TD colSpan=2>Usually the driver comes as a JAR-file, to install the 
+      driver follow the instructions, then place the driver into the ext-dir of 
+      your JRE or include it in your classpath. (I prefer the ext-directory). To 
+      connect to the server choose the Server Network Utility of SQL Server and 
+      look for the configuration with respect to TCP/IP. You need to know the 
+      port to connect. Usually this is port 1433, it is 1051 for me, though. 
+      After configuering the server correctly, I use: <PRE>String driver = "com.microsoft.jdbc.sqlserver.SQLServerDriver"; 
+Class.forName(driver);
+ 
+Connection con = 
+DriverManager.getConnection("jdbc:microsoft:sqlserver://LINDA-A7AGPELGN:1051;databasename=master","sa","plato17"); 
+
+alternatively:
+
+127.0.0.1
+
+or:
+
+localhost
+
+is possible.</PRE>It should work fine then.<BR><BR><BR>Test - program: <A 
+      href="http://www.jalice.net/sqlselect.htm">SQLSelect.java</A><BR>I am 
+      working on MS SQL-Server 2000 mostly - for JDBC I use the MS-driver 
+      available at:<A 
+      href="http://www.microsoft.com/sql/downloads/2000/jdbc.asp" target=_top> 
+      Microsoft Driver Download</A><BR>Another one by i-net software: <A 
+      href="http://www.inetsoftware.de/English/Produkte/JDBC_Overview/ms.htm" 
+      target=_top>i-net software</A> (SQL-Server is quite sensible - close each 
+      ResultSet carefully). <BR><BR><BR>Mail Adress-program: <A 
+      href="http://www.jalice.net/AdressOverview.htm">DatabaseTestField.java</A>:<BR>Mail 
+      Adress-Test-program which I use to display and update my e-mail adresses 
+      for my JavaMail program<BR></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>DataBase-Information</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE>Connection con = DriverManager.getConnection(....);
+
+DatabaseMetaData  basemeta = con.getMetaData();
+
+System.out.println("DB-Name: " + basemeta.getDatabaseProductName());
+
+System.out.println("DB-Version: " + basemeta.getDatabaseProductVersion()); 
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Driver-Information</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE>Connection con = DriverManager.getConnection(....);
+
+DatabaseMetaData  basemeta = con.getMetaData(); 
+ 
+System.out.println("Driver-Name: " + basemeta.getDriverName());
+
+System.out.println("Driver-Version: " + basemeta.getDriverVersion());
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Supported SQL level</TH></TR>
+  <TR>
+    <TD colSpan=2>To get information about the supported level of SQL of the 
+      used Database exists some useful methods in Class DatabaseMetaData, e.g: <PRE>/* Supported ANSI level */
+
+supportsANSI92FullSQL()
+
+supportsANSI92IntermediateSQL()
+
+supportsANSI92EntryLevelSQL()
+
+
+/* Supported SQL Grammer level */
+
+supportsExtendedSQLGrammar()
+
+supportsCoreSQLGrammar()
+
+supportsMinimumSQLGrammar()
+
+</PRE><B>For instance, I get the following output on Sybase(Adaptive 
+      Server Anywhere 7):</B> <PRE>
+ANSI92 Entry Level SQL grammar is supported.
+ODBC Extended SQL grammar is supported.
+
+</PRE><B>With SQL Server 2000:</B> <PRE>ANSI92 Entry Level SQL grammar is supported.
+ODBC Core SQL grammar is supported.
+</PRE><B>With Access 2000:</B> <PRE>
+ANSI92 Entry Level SQL grammar is supported.
+ODBC Minimum SQL grammar is supported.
+
+E.g. I had problems with INTERSECTION on Access but not on Sybase nor on Oracle
+
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Get the catalogs</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE>DatabaseMetaData dbMeta = con.getMetaData();
+
+/* Catalogues = databases */
+   ResultSet rsCat = dbMeta.getCatalogs();
+
+   while (rsCat.next()) {
+
+   String dbName = rsCat.getString("TABLE_CAT");
+
+   System.out.println(dbName);
+}
+</PRE>
+    <TD></TD>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Get The Table Names</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE> 
+DatabaseMetaData  dbMeta = con.getMetaData(); 
+
+SQL-Server:
+
+ResultSet rsTab = dbMeta.getTables("master", null, "%", null);
+
+   while (rsTab.next()) {
+   String tabName = rsTab.getString("TABLE_NAME");
+
+   System.out.println("Table: " + tabName);
+}
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Get the column names</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE>ResultSet rsCol = dbMeta.getColumns(null, null, "Journals", "%");
+
+    while (rsCol.next()) {
+    String colName = rsCol.getString("COLUMN_NAME");
+
+    System.out.println("Column: " + colName);
+}
+
+
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Timestamp</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE>Date date = new Date();
+
+Timestamp time = new Timestamp(date.getTime());
+
+System.out.println("Timestamp: " + time);
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>SQL-Date</TH></TR>
+  <TR>
+    <TD colSpan=2>Convert from a java.util.Date to a java.sql.Date: <PRE>java.util.Date d       = new java.util.Date();
+java.sql.Date  sqlDate =  new java.sql.Date(new java.util.Date().getTime());
+
+System.out.println("Date:" + sqlDate));
+</PRE>Convert a string date such as "2002/05/23" into a sql.Date object: <PRE>  try {
+       SimpleDateFormat format   = new SimpleDateFormat("yyyy/MM/dd");
+       String           date     = "2002/05/23";
+       java.util.Date   util     = format.parse(date);
+       java.sql.Date    sql_date = new java.sql.Date(util.getTime());
+
+       System.out.println(sql_date);
+   } catch (ParseException e) {
+       System.out.println(e.toString());
+   }
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Dates in Database fields, e.g:</TH></TR>
+  <TR>
+    <TD colSpan=2>1. Timestamp <PRE>Date       date  = new Date();
+Timestamp  time  = new Timestamp(date.getTime());
+
+
+
+String sql = "UPDATE Programs SET ReleasedOn = ?";
+PreparedStatement stmt = con.prepareStatement(sql);
+stmt.setTimestamp(1, time);
+stmt.executeUpdate();
+stmt.close();
+
+
+or setDate:
+
+java.sql.Date date = new java.sql.Date(new Date().getTime());
+
+String sql = "UPDATE Images SET CreatedOn = ? WHERE ID = ?";
+
+PreparedStatement stmt = con.prepareStatement(sql);
+
+stmt.setDate(1, date);
+stmt.setInt(2, 2);
+
+Example using Calendar:
+Calendar calendar = Calendar.getInstance();
+time =   calendar.getTime().getTime());)
+
+</PRE>2. Date: <PRE>Calendar  calendar = Calendar.getInstance();
+java.sql.Date today  =
+new java.sql.Date(calendar.getTime().getTime());
+
+(or: date.getTime();)
+
+String sql = "UPDATE DBProg1 SET Today= ?";
+PreparedStatement stmt = con.prepareStatement(sql);
+stmt.setDate(1, today);
+stmt.executeUpdate();
+stmt.close();
+
+
+Alternatively:
+stmt.setDate(1, new java.sql.Date(calendar.getTimeInMillis()));
+
+
+Pass null into Timestamp:
+
+PreparedStatement stmt = ...;
+stmt.setNull(index, Types.TIMESTAMP);
+
+
+Note: SQL-Server TIMESTAMP is not SQL Standard TIMESTAMP! 
+I use DATETIME as datatype
+
+
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Data syntax</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE>
+Access 2000: #1/1/2000#
+
+SQL-Server/Sybase: '1/1/2000' , e.g:  INSERT INTO TimeTest VALUES(1, 'whatever', '1/1/2000');
+
+also possible GetDate(): 
+
+String sql = "INSERT INTO TimeTest1 VALUES(1, 'whatever', GetDate())";
+PreparedStatement stmt = con.prepareStatement(sql);
+stmt.executeUpdate();
+
+(or:
+Statement stmt = con.createStatement();
+String sql=....;
+stmt.executeUpdate(sql);)
+
+inserts the current date into the column.
+
+
+Oracle: To_date('1/1/2000','m/d/yyyy')
+
+
+
+CREATE TABLE-example:
+
+
+
+private void executeSQL() {
+
+   try {
+       String    sql  =
+       "CREATE TABLE TimeTest6(ID INTEGER NOT NULL,"
+       + "Name VARCHAR(20) NOT NULL, DD DATETIME,"
+       + " PRIMARY KEY(ID)) ";
+       Statement stmt = con.createStatement();
+
+       stmt.executeUpdate(sql);
+       stmt.close();
+	 } catch (SQLException e) {
+       System.out.println(e.getMessage());
+   } finally {
+       try {
+           con.close();
+        } catch (Throwable t) {    // ignore
+        }
+    }
+}
+</PRE>Example - program: <A 
+      href="http://www.jalice.net/dbdate.htm">DBDate.java</A>, <A 
+      href="http://www.jalice.net/fieldoverview.htm">DatabaseDateField.java</A><BR>Update 
+      Date / Timestamp<BR><BR></TD></TR>
+  <TR></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Primary Key on JComboBox</TH></TR>
+  <TR>
+    <TD colSpan=2>Implement JComboBox this way that it displays also the 
+      Primary-Key in the drop-down-list <PRE>String sql = "SELECT ID, Name FROM Databases";
+DefaultComboBoxModel combomodel = new DefaultComboBoxModel();
+
+try {
+    PreparedStatement stmt = con.prepareStatement(sql);
+    ResultSet         rs   = stmt.executeQuery();
+
+    while (rs.next()) {
+           LookUpItem lookup = new LookUpItem(rs.getInt(1),
+                                     rs.getString("Name"));
+
+           combomodel.addElement(lookup);
+
+    }
+
+    stmt.close();
+} catch (SQLException e) {
+   System.out.println(e.getMessage());
+} finally {
+    try {
+        con.close();
+    } catch (Throwable t) {    // ignore
+    }
+}
+}		
+ 
+combo = new JComboBox(combomodel);
+
+
+class LookUpItem {
+
+    int    id;
+    String display;
+
+    public LookUpItem(int id, String display) {
+        this.id      = id;
+        this.display = display;
+    }
+
+    public int getID() {
+        return id;
+    }
+
+    public String toString() {
+        return id + ": " + display;
+    }
+
+}
+</PRE>Example by me: <A 
+      href="http://www.jalice.net/dbcombo.htm">SQLCombo.java</A> </TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Get the number of records in the 
+      ResultSet</TH></TR>
+  <TR>
+    <TD colSpan=2>rs.last(); int records = rs.getRow();<BR><BR>(Only since 
+      JDBC 2.0, not every driver does support it, otherwise use "SELECT 
+      COUNT(*)....") e.g.: <PRE>ResultSet rs;
+String sql = "SELECT ....";
+
+Statement st =
+ con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
+                            ResultSet.CONCUR_UPDATABLE);
+
+rs = st.executeQuery(sql);
+
+
+rs.last();
+
+int records = rs.getRow();
+System.out.println("Table has " + records + " rows");
+
+rs.beforeFirst();
+
+while (rs.next()) {
+  ...
+}
+ </PRE>Example: <A 
+      href="http://www.jalice.net/sqlquery.htm">SQLQuery.java</A><BR><BR>Or, if 
+      you like to read backwards, you can use afterLast(), e.g.: <PRE>rs.last();
+int records = rs.getRow();	
+	
+rs.afterLast();
+
+then use in the while loop:
+
+while (rs.previous()) {
+  ...
+}
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Does the driver support Scrollable 
+      ResultSets?</TH></TR>
+  <TR>
+    <TD colSpan=2>Check via DatabaseMetaData.supportsResultSetType - it 
+      returns a boolean which indicates whether the driver supports a result set 
+      type (TYPE_FORWARD_ONLY, 
+      TYPE_SCROLL_INSENSITIVE,TYPE_SCROLL_SENSITIVE),e.g: <PRE>DatabaseMetaData  basemeta = con.getMetaData();
+
+if (basemeta.supportsResultSetType(ResultSet.TYPE_SCROLL_INSENSITIVE)){
+    System.out.println ("TYPE_SCROLL_INSENSITIVE is supported");
+}
+...
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>SQL - FAQ </TH></TR>
+  <TR>
+    <TD colSpan=2><A href="http://www.jalice.net/sqlfaq.htm">My 
+      SQL-FAQ-Notices</A> </TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>MS SQL-Server/Sybase : My programs 
+      for backup</TH></TR>
+  <TR>
+    <TD colSpan=2><BR><A 
+      href="http://www.jalice.net/sqllist.htm">SQLList.java</A> , <A 
+      href="http://www.jalice.net/sqlprimlist.htm">SQLPrimList.java</A> , <A 
+      href="http://www.jalice.net/ComboAdressOverview.htm">NewDatabaseTestField.java</A> 
+      , <A 
+      href="http://www.jalice.net/TableDataTestOverview.htm">TableDataTest.java</A> 
+      , <A href="http://www.jalice.net/MetaListOverview.htm">MetaList.java</A> , 
+      <A href="http://www.jalice.net/NewMetaListOverview.htm">NewMetaList.java , 
+      </A>,<A href="http://www.jalice.net/DBTest2Overview.html">DBTest2.java</A> 
+      , <A href="http://www.jalice.net/dbsybase.htm">DBSybase.java</A> , <A 
+      href="http://www.jalice.net/dbframe.htm">DBFrame.java</A> <BR></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>CREATE TABLE</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE>E.g:
+
+1.
+Statement stmt = con.createStatement();
+
+stmt.executeUpdate(
+"CREATE TABLE members(member_id INTEGER NOT NULL,"
++ "firstname VARCHAR(20) NOT NULL,"
++ "lastname VARCHAR(20) NOT NULL, PRIMARY KEY(member_id)) ");
+
+
+2. Preferably with PreparedStatement, e.g:
+
+String sql =
+ "CREATE TABLE members(member_id INTEGER NOT NULL,"
+ + "firstname VARCHAR(20) NOT NULL,lastname VARCHAR(20) NOT NULL,"
+ + "newsgroups VARCHAR(20)NOT NULL, special VARCHAR(20), PRIMARY KEY(member_id)) ";
+ 
+PreparedStatement stmt = con.prepareStatement(sql);
+
+stmt.executeUpdate();
+
+</PRE>Example: <A 
+      href="http://www.jalice.net/CreateTableOverview.htm">CreateNewTable.java</A>: 
+      Uses a ConnectionFactory-class </TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Add a PrimaryKey to an existing 
+      table later if it has been created without one</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE>PreparedStatement next = con.prepareStatement(
+
+"ALTER TABLE members ADD member_id PRIMARY KEY(member_id)");
+
+
+Table has been created like this:
+
+"CREATE TABLE members(member_id INTEGER NOT NULL,"
+                     + "firstname VARCHAR(20) NOT NULL,"
+                     + "lastname VARCHAR(20) NOT NULL) ");
+										 
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Sorting JTable columns via SQL</TH></TR>
+  <TR>
+    <TD colSpan=2>Assumed having a table called NGMembers (example on my 
+      WebSite DBTest2.java) <PRE>Sort-SQL, e.g:
+
+SELECT * FROM NGMembers ORDER BY FirstName;
+
+Sorting-order, e.g:
+
+SELECT * FROM NGMembers ORDER BY FirstName desc;
+
+Sorts descending (ascending is default).
+
+
+Sorting Sysobjects, e.g:
+
+
+SELECT * FROM sysobjects WHERE type = 'U' ORDER BY name;
+
+SELECT * FROM syscatalog WHERE creator = 'dba' order by tname;
+</PRE>
+  <TR>
+    <TD colSpan=2></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Get the Primary key:</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE>private void getPrimKey() {
+
+    try {
+        basemeta = con.getMetaData();
+
+        ResultSet rskey = basemeta.getPrimaryKeys(null, null,
+                                                  "NGMembers");
+
+        while (rskey.next()) {
+            String name       = rskey.getString("TABLE_NAME");
+            String columnName = rskey.getString("COLUMN_NAME");
+            String keySeq     = rskey.getString("KEY_SEQ");
+            String pkName     = rskey.getString("PK_NAME");
+
+            System.out.println("table name : " + name);
+            System.out.println("column name: " + columnName);
+            System.out.println("sequence in key: " + keySeq);
+            System.out.println("primary key name: " + pkName);
+            System.out.println("");
+        }
+
+        rskey.close();
+      } catch (SQLException e) {
+        System.err.println(e.toString());
+    }
+}
+
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Insert Images into the 
+  Database:</TH></TR>
+  <TR>
+    <TD colSpan=2>You can use: PreparedStament.setBytes(...) or 
+      PreparedStatement.setBinaryStream(...), e.g: Example-code: <A 
+      href="http://www.jalice.net/insertimagetodb.htm">InsertImageToDB.java</A> 
+      , <A 
+      href="http://www.jalice.net/insertimage.htm">InsertImage.java</A><BR><BR>Get 
+      the image out of the DB: <A 
+      href="http://www.jalice.net/getimage.htm">GetImage.java</A> , <A 
+      href="http://www.jalice.net/iogetjpeg.htm">IOGetJPEG.java</A> (the latter 
+      since 1.4 / uses an ImageInputStream) <BR><BR>Table is created like this: <PRE>String sql =
+   "CREATE TABLE Media(Image_ID INTEGER NOT NULL,"
+   + "ImageName IMAGE NOT NULL, PRIMARY KEY(Image_ID)) ";
+
+Statement stmt = con.createStatement();
+
+stmt.executeUpdate(sql);
+</PRE></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Insert a RTF-Document into Database 
+      and get it out again:</TH></TR>
+  <TR>
+    <TD colSpan=2>Column type is IMAGE:<BR>Example-program: <A 
+      href="http://www.jalice.net/writetexttodb.htm">WriteTextToDB.java</A> , <A 
+      href="http://www.jalice.net/getdocument.htm">GetDocument.java</A> </TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Insert a *.txt-file into the 
+      Database and get it out again:</TH></TR>
+  <TR>
+    <TD colSpan=2>Column type is TEXT, alternatively NVARCHAR, e.g to create 
+      the table: <PRE> private String sql =
+       "CREATE TABLE TextFiles(File_ID INTEGER NOT NULL,"
+        + "File_Name TEXT , PRIMARY KEY(File_ID))"; 
+</PRE>Program - examples to write and read the file : <A 
+      href="http://www.jalice.net/WriteTextFileToDBOverview.htm">WriteTxtFileToDB.java</A> 
+      , <A 
+      href="http://www.jalice.net/GetTextFileFromDatabaseOverview.htm">GetTextFileFromDB.java</A> 
+    </TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Callable Statements / 
+      StoredProcedures</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE>private void executeQuery() {
+
+   try {
+       String    procedure = "create procedure MEMBER_PROCC "
+                             + "as "
+                             + "SELECT FirstName, LastName "
+                             + "FROM NGMembers "
+                             + "WHERE FirstName LIKE 'Al%'";
+       Statement stmt            = con.createStatement();
+
+       stmt.executeUpdate(procedure);
+
+       CallableStatement cs = con.prepareCall("{call MEMBER_PROCC}");
+       ResultSet         rs = cs.executeQuery();
+
+       while (rs.next()) {
+             System.out.println(rs.getString(1) + ", " + rs.getString(2));
+       }
+
+           
+       rs.close();
+       stmt.close();
+   } catch (SQLException e) {
+       System.err.println(e.toString());
+ }
+}
+</PRE><B>With Scrollable ResultSets:</B> <PRE>CallableStatement cs =
+    con.prepareCall("{call MEMBER_PROCD}",
+        ResultSet.TYPE_SCROLL_INSENSITIVE,
+        ResultSet.CONCUR_UPDATABLE);
+
+ResultSet         rs = cs.executeQuery();
+
+rs.last();
+
+int records = rs.getRow();
+
+System.out.println("Table has " + records + " rows");
+rs.beforeFirst();
+
+
+while (rs.next()) {...}
+</PRE>Example: <A 
+      href="http://www.jalice.net/proceduretest.htm">ProcedureTest.java</A><BR></TD></TR>
+  <TR>
+    <TH class=SECOND align=left colSpan=2>Get the password from a 
+      JPasswordField</TH></TR>
+  <TR>
+    <TD colSpan=2><PRE>String password = new String(JPasswordField.getPassword());
+</PRE><BR>Return to :<A href="http://www.jalice.net/myswing.htm"> My 
+      FAQ-Notices</A> </TD></TR></TBODY></TABLE></BODY></HTML>

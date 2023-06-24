@@ -1,0 +1,39 @@
+BODY BODY {
+	BACKGROUND: white; FONT-FAMILY: "Trebuchet MS", Verdana, sans-serif
+}
+H3 {
+	FONT-FAMILY: "Trebuchet MS", Verdana, sans-serif
+}
+H4 {
+	COLOR: #183257; FONT-FAMILY: "Trebuchet MS", Verdana, sans-serif
+}
+TH.FIRST {
+	TEXT-TRANSFORM: uppercase; COLOR: #ffffff; FONT-FAMILY: "Trebuchet MS", Verdana, sans-serif; BACKGROUND-COLOR: #405b88
+}
+TH.SECOND {
+	TEXT-TRANSFORM: capitalize; COLOR: #405b88; FONT-FAMILY: "Trebuchet MS", Verdana, sans-serif; BACKGROUND-COLOR: #f3f3f7
+}
+TD {
+	FONT-SIZE: 85%; FONT-FAMILY: "Trebuchet MS", Verdana, sans-serif
+}
+TD.INITIAL {
+	FONT-FAMILY: "Trebuchet MS", Verdana, sans-serif; TEXT-ALIGN: justify
+}
+A:link {
+	COLOR: #6699cc; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #6699cc; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #6699cc; TEXT-DECORATION: none
+}
+A {
+	COLOR: #6699cc; TEXT-DECORATION: none
+}
+PRE {
+	FONT-SIZE: 85%; COLOR: #182357; FONT-FAMILY: "Courier New", monospaced
+}
+DIV {
+	P: first-letter { font-size: 300%; float: left; }
+}

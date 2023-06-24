@@ -1,0 +1,76 @@
+06/07/2002 - 02 H 37 M 51 ==> Fichier D:\WorldYB\log\World_06072002.log cree.
+06/07/2002 - 02 H 37 M 51 ==> Chaine a crypter : kenavo
+06/07/2002 - 02 H 37 M 51 ==> Chaine cryptee : kfpdzt9pt
+06/07/2002 - 02 H 37 M 51 ==> Chaine decryptee : kenavo
+06/07/2002 - 02 H 37 M 51 ==> Cryptage de Yann Brossard : Ybpq$Gxv{|k}p
+06/07/2002 - 02 H 37 M 51 ==> Decryptage de Yann Brossard : Yann Brossard
+06/07/2002 - 02 H 38 M 22 ==> Chaine a crypter : kenavo
+06/07/2002 - 02 H 38 M 22 ==> Chaine cryptee : kfpdzt9pt
+06/07/2002 - 02 H 38 M 22 ==> Chaine decryptee : kenavo
+06/07/2002 - 02 H 38 M 22 ==> Cryptage de Yann Brossard : Ybpq$Gxv{|k}p
+06/07/2002 - 02 H 38 M 22 ==> Decryptage de Yann Brossard : Yann Brossard
+06/07/2002 - 02 H 39 M 20 ==> Chaine a crypter : kenavo
+06/07/2002 - 02 H 39 M 20 ==> Chaine cryptee : kfpdzt9pt
+06/07/2002 - 02 H 39 M 20 ==> Chaine decryptee : kenavo
+06/07/2002 - 02 H 39 M 20 ==> Cryptage de Yann Brossard : Ybpq$Gxv{|k}p
+06/07/2002 - 02 H 39 M 20 ==> Decryptage de Yann Brossard : Yann Brossard
+06/07/2002 - 02 H 42 M 38 ==> Code ASCII de 'Y' : 89
+06/07/2002 - 02 H 42 M 38 ==> Code ASCII de 'Y' : 89
+06/07/2002 - 02 H 42 M 46 ==> Code ASCII de 'Y' : 89
+06/07/2002 - 02 H 42 M 46 ==> Code ASCII de 'Y' : 89
+06/07/2002 - 02 H 44 M 13 ==> Avant lancement de la calculatrice.
+06/07/2002 - 02 H 44 M 13 ==> Commande calc.exe lancee.
+06/07/2002 - 02 H 44 M 13 ==> Apres lancement de la calculatrice.
+06/07/2002 - 02 H 44 M 13 ==> Avant lancement de notepad.
+06/07/2002 - 02 H 44 M 13 ==> Commande notepad.exe lancee.
+06/07/2002 - 02 H 44 M 15 ==> Valeur de retour du process notepad.exe : 0
+06/07/2002 - 02 H 44 M 15 ==> Apres lancement de notepad.
+06/07/2002 - 02 H 44 M 37 ==> Avant lancement de la calculatrice.
+06/07/2002 - 02 H 44 M 37 ==> Commande calc.exe lancee.
+06/07/2002 - 02 H 44 M 37 ==> Apres lancement de la calculatrice.
+06/07/2002 - 02 H 44 M 37 ==> Avant lancement de notepad.
+06/07/2002 - 02 H 44 M 37 ==> Commande notepad.exe lancee.
+06/07/2002 - 02 H 44 M 38 ==> Valeur de retour du process notepad.exe : 0
+06/07/2002 - 02 H 44 M 38 ==> Apres lancement de notepad.
+06/07/2002 - 02 H 44 M 47 ==> Avant lancement de la calculatrice.
+06/07/2002 - 02 H 44 M 47 ==> Commande calc.exe lancee.
+06/07/2002 - 02 H 44 M 47 ==> Apres lancement de la calculatrice.
+06/07/2002 - 02 H 44 M 47 ==> Avant lancement de notepad.
+06/07/2002 - 02 H 44 M 47 ==> Commande notepad.exe lancee.
+06/07/2002 - 02 H 44 M 49 ==> Valeur de retour du process notepad.exe : 0
+06/07/2002 - 02 H 44 M 49 ==> Apres lancement de notepad.
+06/07/2002 - 02 H 46 M 56 ==> Cle du parametre 'SGBD_DRIVER_ORACLE' : oracle.jdbc.driver.OracleDriver
+06/07/2002 - 02 H 46 M 56 ==> Cle du parametre 'SGBD_URL_EFUD' : jdbc:oracle:thin:@clsss02:1531:EFUD
+06/07/2002 - 02 H 46 M 56 ==> Cle du parametre 'SGBD_USER_EFUD' : efunadmin
+06/07/2002 - 02 H 46 M 56 ==> Cle du parametre 'SGBD_PWD_EFUD' : pefunadmin
+06/07/2002 - 02 H 47 M 06 ==> Cle du parametre 'SGBD_DRIVER_ORACLE' : oracle.jdbc.driver.OracleDriver
+06/07/2002 - 02 H 47 M 06 ==> Cle du parametre 'SGBD_URL_EFUD' : jdbc:oracle:thin:@clsss02:1531:EFUD
+06/07/2002 - 02 H 47 M 06 ==> Cle du parametre 'SGBD_USER_EFUD' : efunadmin
+06/07/2002 - 02 H 47 M 06 ==> Cle du parametre 'SGBD_PWD_EFUD' : pefunadmin
+06/07/2002 - 02 H 48 M 07 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:oracle:thin:@clsss02:1531:EFUD
+06/07/2002 - 02 H 48 M 07 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+06/07/2002 - 02 H 48 M 07 ==> Connexion etablie : null
+06/07/2002 - 02 H 48 M 07 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:sybase:Tds:clsss22:5100
+06/07/2002 - 02 H 48 M 07 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+06/07/2002 - 02 H 48 M 07 ==> Connexion etablie : null
+06/07/2002 - 02 H 48 M 26 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:oracle:thin:@clsss02:1531:EFUD
+06/07/2002 - 02 H 48 M 26 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+06/07/2002 - 02 H 48 M 26 ==> Connexion etablie : null
+06/07/2002 - 02 H 48 M 26 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:sybase:Tds:clsss22:5100
+06/07/2002 - 02 H 48 M 26 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+06/07/2002 - 02 H 48 M 26 ==> Connexion etablie : null
+06/07/2002 - 02 H 49 M 48 ==> Recuperation d'une connexion aupres de la base de donnees
+06/07/2002 - 02 H 49 M 48 ==> Erreur : Impossible d'enregistrer le driver de la base de donnees.
+06/07/2002 - 02 H 50 M 00 ==> Recuperation d'une connexion aupres de la base de donnees
+06/07/2002 - 02 H 50 M 00 ==> Erreur : Impossible d'enregistrer le driver de la base de donnees.
+06/07/2002 - 02 H 51 M 42 ==> Recuperation d'une connexion aupres de la base de donnees
+06/07/2002 - 02 H 51 M 42 ==> Erreur : Impossible d'enregistrer le driver de la base de donnees.
+06/07/2002 - 02 H 51 M 53 ==> Erreur : Impossible d'enregistrer le driver de la base de donnees.
+06/07/2002 - 02 H 53 M 03 ==> Erreur : Impossible d'interroger la base de donnees.
+06/07/2002 - 02 H 53 M 22 ==> Erreur : Impossible d'interroger la base de donnees.
+06/07/2002 - 02 H 53 M 54 ==> Erreur : Impossible d'interroger la base de donnees.
+06/07/2002 - 02 H 54 M 23 ==> Erreur : Impossible d'interroger la base de donnees.
+06/07/2002 - 02 H 54 M 28 ==> Erreur : Impossible d'interroger la base de donnees.
+06/07/2002 - 02 H 54 M 39 ==> Erreur : Impossible d'interroger la base de donnees.
+06/07/2002 - 02 H 56 M 02 ==> Ceci est un test de message de log dans un fichier de log
+06/07/2002 - 02 H 56 M 15 ==> Ceci est un test de message de log dans un fichier de log

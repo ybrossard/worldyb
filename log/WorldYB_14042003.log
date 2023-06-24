@@ -1,0 +1,19 @@
+14/04/2003 - 20 H 39 M 13 ==> Fichier D:\WorldYB\log\WorldYB_14042003.log cree.
+14/04/2003 - 20 H 39 M 13 ==> 
+14/04/2003 - 20 H 45 M 28 ==> s1 : com.home.patterns.singleton.Singleton@17182c1
+14/04/2003 - 20 H 45 M 28 ==> s2 : com.home.patterns.singleton.Singleton@17182c1
+14/04/2003 - 20 H 45 M 28 ==> s1.getMessage() : Singleton YB
+14/04/2003 - 20 H 45 M 28 ==> s2.getMessage() : Singleton YB
+14/04/2003 - 20 H 45 M 28 ==> s1.getChampString() : J'initialise un deuxième champ.
+14/04/2003 - 20 H 45 M 28 ==> s2.getChampString() : J'initialise un deuxième champ.
+14/04/2003 - 20 H 45 M 28 ==> s1.getChampInt() : 24091972
+14/04/2003 - 20 H 45 M 28 ==> s2.getChampInt() : 24091972
+14/04/2003 - 20 H 46 M 46 ==> s1 : com.home.patterns.singleton.Singleton@f4a24a
+14/04/2003 - 20 H 46 M 46 ==> s2 : com.home.patterns.singleton.Singleton@f4a24a
+14/04/2003 - 20 H 46 M 46 ==> s1.getMessage() : Singleton YB
+14/04/2003 - 20 H 46 M 46 ==> s2.getMessage() : Singleton YB
+14/04/2003 - 20 H 46 M 46 ==> s1.getChampString() : J'initialise un deuxième champ.
+14/04/2003 - 20 H 46 M 46 ==> s2.getChampString() : J'initialise un deuxième champ.
+14/04/2003 - 20 H 46 M 46 ==> s1.getChampInt() : 24091972
+14/04/2003 - 20 H 46 M 46 ==> s2.getChampInt() : 24091972
+14/04/2003 - 20 H 52 M 20 ==> Ceci est un test de message de log dans un fichier de log

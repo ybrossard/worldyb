@@ -1,0 +1,8 @@
+# Point d'entree sur le disque dur
+REPERTOIRE_ENTREE=C:\\temp
+
+# Concatenation de la ligne de commande a executer
+# COMMANDE = COMMANDE_APPEL_SYSTEME + COMMANDE_BASE + CheminProgramme + ARGUMENTS
+COMMANDE_APPEL_SYSTEME=cmd.exe /C
+COMMANDE_BASE=echo > 
+ARGUMENTS=\\Toto.txt

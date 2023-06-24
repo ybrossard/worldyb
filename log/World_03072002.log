@@ -1,0 +1,84 @@
+03/07/2002 - 19 H 15 M 00 ==> Fichier D:\WorldYB\log\World_03072002.log cree.
+03/07/2002 - 19 H 15 M 00 ==> Code ASCII de 'Y' : 89
+03/07/2002 - 19 H 15 M 00 ==> Code ASCII de 'Y' : 89
+03/07/2002 - 19 H 15 M 04 ==> Cle du parametre 'SGBD_DRIVER_ORACLE' : oracle.jdbc.driver.OracleDriver
+03/07/2002 - 19 H 15 M 04 ==> Cle du parametre 'SGBD_URL_EFUD' : jdbc:oracle:thin:@clsss02:1531:EFUD
+03/07/2002 - 19 H 15 M 04 ==> Cle du parametre 'SGBD_USER_EFUD' : efunadmin
+03/07/2002 - 19 H 15 M 04 ==> Cle du parametre 'SGBD_PWD_EFUD' : pefunadmin
+03/07/2002 - 19 H 15 M 09 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:oracle:thin:@clsss02:1531:EFUD
+03/07/2002 - 19 H 15 M 09 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+03/07/2002 - 19 H 15 M 09 ==> Connexion etablie : null
+03/07/2002 - 19 H 15 M 09 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:sybase:Tds:clsss22:5100
+03/07/2002 - 19 H 15 M 09 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+03/07/2002 - 19 H 15 M 09 ==> Connexion etablie : null
+03/07/2002 - 19 H 15 M 13 ==> Chaine a crypter : kenavo
+03/07/2002 - 19 H 15 M 14 ==> Chaine cryptee : kfpdzt9pt
+03/07/2002 - 19 H 15 M 14 ==> Chaine decryptee : kenavo
+03/07/2002 - 19 H 15 M 14 ==> Cryptage de Yann Brossard : Ybpq$Gxv{|k}p
+03/07/2002 - 19 H 15 M 14 ==> Decryptage de Yann Brossard : Yann Brossard
+03/07/2002 - 19 H 15 M 17 ==> Recuperation d'une connexion aupres de la base de donnees
+03/07/2002 - 19 H 15 M 17 ==> Erreur : Enregistrement du driver de la base de donnees.
+03/07/2002 - 19 H 15 M 20 ==> Date : Wed Jul 03 19:15:19 CEST 2002
+03/07/2002 - 19 H 15 M 20 ==> Date convertie en chaine : 03/07/2002
+03/07/2002 - 19 H 15 M 20 ==> Date reconvertie en date : Wed Jul 03 00:00:00 CEST 2002
+03/07/2002 - 19 H 15 M 20 ==> Date reconvertie en chaine (changement de format) : 03-07-2002
+03/07/2002 - 19 H 15 M 22 ==> Fichier c:\temp\MonFichier.txt cree.
+03/07/2002 - 19 H 15 M 22 ==> Test de l'existence du fichier : true
+03/07/2002 - 19 H 15 M 24 ==> Ceci est un test de message de log dans un fichier de log
+03/07/2002 - 21 H 47 M 29 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:oracle:thin:@clsss02:1531:EFUD
+03/07/2002 - 21 H 47 M 29 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+03/07/2002 - 21 H 47 M 29 ==> Connexion etablie : null
+03/07/2002 - 21 H 47 M 30 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:sybase:Tds:clsss22:5100
+03/07/2002 - 21 H 47 M 30 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+03/07/2002 - 21 H 47 M 30 ==> Connexion etablie : null
+03/07/2002 - 21 H 49 M 20 ==> Cle du parametre 'SGBD_DRIVER_ORACLE' : oracle.jdbc.driver.OracleDriver
+03/07/2002 - 21 H 49 M 20 ==> Cle du parametre 'SGBD_URL_EFUD' : jdbc:oracle:thin:@clsss02:1531:EFUD
+03/07/2002 - 21 H 49 M 20 ==> Cle du parametre 'SGBD_USER_EFUD' : efunadmin
+03/07/2002 - 21 H 49 M 20 ==> Cle du parametre 'SGBD_PWD_EFUD' : pefunadmin
+03/07/2002 - 21 H 49 M 30 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:microsoft:sqlserver://server:1433
+03/07/2002 - 21 H 49 M 30 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+03/07/2002 - 21 H 49 M 30 ==> Connexion etablie : null
+03/07/2002 - 21 H 49 M 55 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:microsoft:sqlserver://SERVER:1433
+03/07/2002 - 21 H 49 M 55 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+03/07/2002 - 21 H 49 M 55 ==> Connexion etablie : null
+03/07/2002 - 21 H 51 M 53 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:microsoft:sqlserver://SERVER:1433,"sa","sa	"
+03/07/2002 - 21 H 51 M 53 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+03/07/2002 - 21 H 51 M 53 ==> Connexion etablie : null
+03/07/2002 - 21 H 52 M 05 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:microsoft:sqlserver://SERVER:1433,"sa","sa"
+03/07/2002 - 21 H 52 M 05 ==> Erreur : Impossible d'enregistrer le driver de base de donnnes.
+03/07/2002 - 21 H 52 M 06 ==> Connexion etablie : null
+03/07/2002 - 21 H 53 M 22 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:microsoft:sqlserver://SERVER:1433
+03/07/2002 - 21 H 53 M 23 ==> Erreur : Impossible d'etablir une connexion aupres de la base de donnees.
+03/07/2002 - 21 H 53 M 23 ==> Connexion etablie : null
+03/07/2002 - 21 H 53 M 44 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:microsoft:sqlserver://SERVER:1433,"sa","sa"
+03/07/2002 - 21 H 53 M 44 ==> Erreur : Impossible d'etablir une connexion aupres de la base de donnees.
+03/07/2002 - 21 H 53 M 44 ==> Connexion etablie : null
+03/07/2002 - 21 H 55 M 14 ==> Chaine a crypter : kenavo
+03/07/2002 - 21 H 55 M 14 ==> Chaine cryptee : kfpdzt9pt
+03/07/2002 - 21 H 55 M 14 ==> Chaine decryptee : kenavo
+03/07/2002 - 21 H 55 M 14 ==> Cryptage de Yann Brossard : Ybpq$Gxv{|k}p
+03/07/2002 - 21 H 55 M 14 ==> Decryptage de Yann Brossard : Yann Brossard
+03/07/2002 - 22 H 07 M 30 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:microsoft:sqlserver://SERVER:1433;databasename=SGBD_YB
+03/07/2002 - 22 H 07 M 30 ==> Erreur : Impossible d'etablir une connexion aupres de la base de donnees.
+03/07/2002 - 22 H 07 M 30 ==> Connexion etablie : null
+03/07/2002 - 22 H 08 M 58 ==> Etablissement d'une connexion aupres de la base de donnees : jdbc:microsoft:sqlserver://SERVER:1433;databasename=SGBD_YB;user=sa;password=sa
+03/07/2002 - 22 H 08 M 58 ==> Erreur : Impossible d'etablir une connexion aupres de la base de donnees.
+03/07/2002 - 22 H 08 M 58 ==> Connexion etablie : null
+03/07/2002 - 22 H 14 M 23 ==> Recuperation d'une connexion aupres de la base de donnees
+03/07/2002 - 22 H 14 M 23 ==> Enreistrement du driver OK
+03/07/2002 - 22 H 14 M 23 ==> Erreur : Interrogation de la base de donnees.
+03/07/2002 - 22 H 15 M 19 ==> Recuperation d'une connexion aupres de la base de donnees
+03/07/2002 - 22 H 15 M 19 ==> Enreistrement du driver OK
+03/07/2002 - 22 H 15 M 19 ==> Erreur : Interrogation de la base de donnees.
+03/07/2002 - 22 H 16 M 19 ==> Recuperation d'une connexion aupres de la base de donnees
+03/07/2002 - 22 H 16 M 19 ==> Enreistrement du driver OK
+03/07/2002 - 22 H 16 M 19 ==> Erreur : Interrogation de la base de donnees.
+03/07/2002 - 22 H 17 M 49 ==> Recuperation d'une connexion aupres de la base de donnees
+03/07/2002 - 22 H 17 M 49 ==> Enreistrement du driver OK
+03/07/2002 - 22 H 17 M 50 ==> Erreur : Interrogation de la base de donnees.
+03/07/2002 - 22 H 18 M 41 ==> Recuperation d'une connexion aupres de la base de donnees
+03/07/2002 - 22 H 18 M 41 ==> Enreistrement du driver OK
+03/07/2002 - 22 H 18 M 44 ==> Erreur : Interrogation de la base de donnees.
+03/07/2002 - 22 H 21 M 41 ==> Recuperation d'une connexion aupres de la base de donnees
+03/07/2002 - 22 H 21 M 41 ==> Enreistrement du driver OK
+03/07/2002 - 22 H 21 M 43 ==> Erreur : Interrogation de la base de donnees.
