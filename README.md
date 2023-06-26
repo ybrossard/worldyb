@@ -1,4 +1,4 @@
-# Repository : worldyb
+# Repository : Worldyb
 ## URL : https://github.com/ybrossard/worldyb
 
 ### Clonage du repository
